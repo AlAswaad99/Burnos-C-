@@ -1,0 +1,82 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondpagefname"
+        android:layout_margin  = "10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondpageemail"
+        android:layout_margin  = "10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondpagepassword"
+        android:layout_margin  = "10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondid"
+        android:layout_margin  = "10dp" />
+
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"        
+        android:id="@+id/secondprofimg"
+        android:layout_margin="10dp"    />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searcharea"
+        android:hint="Search"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/openmenubar"
+        android:hint="Open Menu Bar"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotocart"
+        android:hint="Go to cart"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+    />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondpagerecycler"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/buysuccesstext"
+    android:text="Transaction Complete"
+    android:textSize="40sp"
+    android:padding="10dp"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/buysuccessdetail"
+    android:text="Package will be delivered bekerbu"
+    />
+
+ 
+
+<!--<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/returnbtn"
+    android:text="Ok"
+    />-->
+
+</LinearLayout>

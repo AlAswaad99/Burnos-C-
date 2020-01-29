@@ -1,0 +1,99 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation ="vertical"
+        android:layout_centerVertical="false"
+        android:paddingTop="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fullnametext">
+        
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:textSize = "18sp"
+        android:layout_marginBottom = "10dp"
+        android:imeOptions="actionNext">
+    </EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/emailtext">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize = "18sp"
+        android:layout_marginBottom = "10dp"
+        android:imeOptions="actionNext">
+    </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/passwordtext">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize = "18sp"
+        android:layout_marginBottom = "10dp"
+        android:imeOptions="actionDone">
+    </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/profileiv"
+        android:src="@android:drawable/ic_menu_camera"/>
+    
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Submit"
+        android:layout_margin = "5dp"
+        android:id = "@+id/submit_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Log in"
+        android:layout_margin = "5dp"
+        android:id = "@+id/login_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Login with google"
+        android:layout_margin = "5dp"
+        android:id = "@+id/googlelogin_btn"/>
+
+
+    
+    </LinearLayout>
+
+    
+</RelativeLayout>

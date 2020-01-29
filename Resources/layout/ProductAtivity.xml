@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!--<ImageView
+         android:id="@+id/productdetailiv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+    />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productdetailname"
+        android:text="Product"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productdetailcategory"
+        android:text="Category"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productdetailamount"
+        android:text="Amount"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+
+    />
+
+
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "buy"
+        android:layout_margin = "5dp"
+        android:id = "@+id/buybtn"/>    
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "cart"
+        android:layout_margin = "5dp"
+        android:id = "@+id/cartbtn"/>    
+        
+
+
+</LinearLayout>

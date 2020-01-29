@@ -1,0 +1,65 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="5dp"
+        
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartresultiv"
+        android:layout_marginRight="10dp"
+        android:src="@android:drawable/ic_menu_report_image"
+        />
+
+    <TextView
+    android:id="@+id/cartresultname"
+    android:layout_height="wrap_content"
+    android:layout_width="120dp"
+    android:text="Fullname"
+    android:layout_marginRight="10dp"
+    android:textAllCaps="true"
+    android:layout_gravity="center_vertical"
+    />
+    
+     <TextView
+    android:id="@+id/cartresultprice"
+    android:layout_height="wrap_content"
+    android:layout_width="50dp"
+    android:text="Email"
+    android:layout_marginRight="10dp" 
+    android:layout_gravity="center_vertical"
+
+
+    />
+
+        <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:id="@+id/cartdeleteiv"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:src="@android:drawable/ic_menu_delete"
+        />
+
+    
+     </LinearLayout>
+     
+    
+   <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e2e2e2"
+    />
+
+
+</LinearLayout>
